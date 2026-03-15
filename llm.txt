@@ -1,0 +1,22 @@
+# My Blog
+
+> A personal blog with short posts about software, opinions, and photos.
+
+## About
+
+This is a personal blog. Posts are typically two to three paragraphs long, covering software engineering, interesting observations, and occasionally photos. The site is a static HTML site with no JavaScript frameworks.
+
+## Content
+
+- [Blog Posts](/): Homepage with a list of all posts
+- [Photos](/photos/): Photo gallery
+- [About](/about.html): About the author
+
+## Posts
+
+- [Things I Learned This Week](/posts/things-i-learned.html): Observations about benchmarks, simple tools, and deleting code.
+- [Hello World](/posts/hello-world.html): Why this blog exists and what to expect.
+
+## Contact
+
+Replace YOUR_USERNAME in social links with actual usernames for: Hacker News, Lobsters, GitHub, X, Mastodon, Bluesky.
