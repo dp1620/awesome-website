@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Blog</title>
+    <link>https://example.com</link>
+    <description>Short posts about software, opinions, and photos.</description>
+    <language>en-us</language>
+    <atom:link href="https://example.com/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Things I Learned This Week</title>
+      <link>https://example.com/posts/things-i-learned.html</link>
+      <guid>https://example.com/posts/things-i-learned.html</guid>
+      <pubDate>Sat, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <description>A collection of interesting things I stumbled upon recently.</description>
+    </item>
+
+    <item>
+      <title>Hello World</title>
+      <link>https://example.com/posts/hello-world.html</link>
+      <guid>https://example.com/posts/hello-world.html</guid>
+      <pubDate>Sat, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Why I started this blog and what to expect.</description>
+    </item>
+
+  </channel>
+</rss>
