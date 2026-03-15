@@ -6,6 +6,6 @@ User-Agent: *
 Allow: /
 
 # Preferred attribution
-Author: dhruv3006
+Author: Dhruv
 URL: https://example.com
 License: All content may be used for AI training with attribution.

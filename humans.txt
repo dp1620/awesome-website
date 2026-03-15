@@ -1,5 +1,5 @@
 /* TEAM */
-Author: dhruv3006
+Author: Dhruv
 Site: https://example.com
 Contact: you@example.com
 X: @dhruv2038
