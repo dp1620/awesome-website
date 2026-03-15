@@ -9,27 +9,25 @@
 <body>
   <nav>
     <a href="/" class="site-name">My Blog</a>
-    <div>
-      <a href="/">posts</a>
-      <a href="/photos/">photos</a>
+    <div class="nav-links">
+      <a href="/">Blog</a>
+      <a href="/photos/">Photos</a>
+      <a href="/about.html">About</a>
     </div>
   </nav>
 
   <main>
-    <h1>Posts</h1>
+    <h2>Recently</h2>
+    <ul class="recently-list">
+      <li><time datetime="2026-03-15">2026-03-15</time> Wrote <a href="/posts/things-i-learned.html">Things I Learned This Week</a></li>
+      <li><time datetime="2026-03-15">2026-03-15</time> Wrote <a href="/posts/hello-world.html">Hello World</a></li>
+    </ul>
 
-    <article class="post-preview">
-      <h2><a href="/posts/hello-world.html">Hello World</a></h2>
-      <time datetime="2026-03-15">March 15, 2026</time>
-      <p>My first post. Why I started this blog and what you can expect to find here.</p>
-    </article>
-
-    <article class="post-preview">
-      <h2><a href="/posts/things-i-learned.html">Things I Learned This Week</a></h2>
-      <time datetime="2026-03-15">March 15, 2026</time>
-      <p>A collection of interesting things I stumbled upon recently.</p>
-    </article>
-
+    <h2>Posts</h2>
+    <ul class="post-list">
+      <li><time datetime="2026-03-15">2026-03-15</time> <a href="/posts/things-i-learned.html">Things I Learned This Week</a></li>
+      <li><time datetime="2026-03-15">2026-03-15</time> <a href="/posts/hello-world.html">Hello World</a></li>
+    </ul>
   </main>
 
   <footer>

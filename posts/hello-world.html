@@ -9,21 +9,30 @@
 <body>
   <nav>
     <a href="/" class="site-name">My Blog</a>
-    <div>
-      <a href="/">posts</a>
-      <a href="/photos/">photos</a>
+    <div class="nav-links">
+      <a href="/">Blog</a>
+      <a href="/photos/">Photos</a>
+      <a href="/about.html">About</a>
     </div>
   </nav>
 
-  <main class="post-body">
+  <main>
+    <div class="post-nav">
+      <span>&larr; <a href="/posts/things-i-learned.html">Newer</a></span>
+      <span><a href="/">&uarr; Blog</a></span>
+    </div>
+
     <h1>Hello World</h1>
-    <time datetime="2026-03-15">March 15, 2026</time>
+    <p class="subtitle">Why I started this blog and what to expect.</p>
+    <time datetime="2026-03-15">Saturday, 15 March 2026</time>
 
-    <p>I've been meaning to start writing for a while now. Not because I think the world needs another blog, but because I keep having conversations where I repeat the same ideas and it would be nice to just point people at a URL instead. Most of my posts will be short — two or three paragraphs — because I think the best writing respects the reader's time.</p>
+    <div class="post-body">
+      <p>I've been meaning to start writing for a while now. Not because I think the world needs another blog, but because I keep having conversations where I repeat the same ideas and it would be nice to just point people at a URL instead. Most of my posts will be short — two or three paragraphs — because I think the best writing respects the reader's time.</p>
 
-    <p>This blog will be a mix of things I find interesting: observations from building software, photos I've taken, and occasionally opinions that I haven't fully thought through but feel are worth sharing anyway. I'm keeping the design simple on purpose. No analytics, no tracking, no JavaScript. Just text and images. If you're reading this, you probably found it on Hacker News or Lobsters, and I know that audience values substance over style.</p>
+      <p>This blog will be a mix of things I find interesting: observations from building software, photos I've taken, and occasionally opinions that I haven't fully thought through but feel are worth sharing anyway. I'm keeping the design simple on purpose. No analytics, no tracking, no JavaScript. Just text and images. If you're reading this, you probably found it on Hacker News or Lobsters, and I know that audience values substance over style.</p>
 
-    <p>If something here resonates or you think I'm wrong about something, my email is in the footer. I'd love to hear from you.</p>
+      <p>If something here resonates or you think I'm wrong about something, my email is in the footer. I'd love to hear from you.</p>
+    </div>
   </main>
 
   <footer>
