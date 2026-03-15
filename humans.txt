@@ -1,9 +1,9 @@
 /* TEAM */
-Author: YOUR_NAME
+Author: dhruv3006
 Site: https://example.com
 Contact: you@example.com
-X: @YOUR_USERNAME
-GitHub: YOUR_USERNAME
+X: @dhruv2038
+GitHub: dp1620
 
 /* SITE */
 Standards: HTML5, CSS3
