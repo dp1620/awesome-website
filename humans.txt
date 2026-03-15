@@ -3,7 +3,7 @@ Author: dhruv3006
 Site: https://example.com
 Contact: you@example.com
 X: @dhruv2038
-GitHub: dhruv3006
+GitHub: dp1620
 
 /* SITE */
 Standards: HTML5, CSS3
