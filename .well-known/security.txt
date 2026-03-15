@@ -1,0 +1,5 @@
+# Security contact information
+# https://securitytxt.org/
+Contact: mailto:you@example.com
+Preferred-Languages: en
+Expires: 2027-03-15T00:00:00.000Z

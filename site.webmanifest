@@ -1,0 +1,16 @@
+{
+  "name": "My Blog",
+  "short_name": "My Blog",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "Short posts about software, opinions, and photos.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}
