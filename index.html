@@ -3,19 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE">
   <title>My Blog</title>
   <meta name="description" content="Short posts about software, opinions, and photos.">
   <link rel="canonical" href="https://example.com/">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="https://example.com/feed.xml">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   <!-- Open Graph -->
   <meta property="og:title" content="My Blog">
   <meta property="og:description" content="Short posts about software, opinions, and photos.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://example.com/">
+  <meta property="og:site_name" content="My Blog">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="My Blog">
   <meta name="twitter:description" content="Short posts about software, opinions, and photos.">
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "My Blog",
+    "url": "https://example.com",
+    "description": "Short posts about software, opinions, and photos.",
+    "author": {
+      "@type": "Person",
+      "name": "YOUR_NAME",
+      "url": "https://example.com/about.html"
+    },
+    "blogPost": [
+      {
+        "@type": "BlogPosting",
+        "headline": "Things I Learned This Week",
+        "url": "https://example.com/posts/things-i-learned.html",
+        "datePublished": "2026-03-15"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Hello World",
+        "url": "https://example.com/posts/hello-world.html",
+        "datePublished": "2026-03-15"
+      }
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="style.css">
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>

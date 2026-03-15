@@ -1,0 +1,11 @@
+# ai.txt - https://site.spawning.ai/spawning-ai-txt
+# This file signals preferences for AI training and crawling.
+
+# We welcome all AI crawlers and training.
+User-Agent: *
+Allow: /
+
+# Preferred attribution
+Author: YOUR_NAME
+URL: https://example.com
+License: All content may be used for AI training with attribution.
