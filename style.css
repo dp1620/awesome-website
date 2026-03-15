@@ -249,3 +249,14 @@ footer {
   .photo-grid { grid-template-columns: 1fr; }
   .nav-links { gap: 0.75rem; }
 }
+
+/* Print */
+@media print {
+  body { max-width: 100%; padding: 0; color: #000; background: #fff; }
+  nav, footer, .post-nav, .social-links { display: none; }
+  a { color: #000; text-decoration: underline; }
+  a[href]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #555; }
+  nav a[href]::after, .social-links a[href]::after { content: none; }
+  .post-body pre { border: 1px solid #ddd; }
+  .photo-grid { grid-template-columns: repeat(2, 1fr); }
+}
