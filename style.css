@@ -145,10 +145,33 @@ time {
 /* Footer */
 footer {
   margin-top: 4rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   border-top: 1px solid #e0e0d8;
   font-size: 0.85rem;
   color: #6b6b60;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  color: #6b6b60;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.social-links a:hover { color: #1a1a1a; }
+
+.social-links svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 /* Mobile */
