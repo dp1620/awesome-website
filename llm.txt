@@ -21,4 +21,4 @@ This is a personal blog. Posts are typically two to three paragraphs long, cover
 
 ## Contact
 
-Replace YOUR_USERNAME in social links with actual usernames for: Hacker News, Lobsters, GitHub, X, Mastodon, Bluesky.
+Social profiles: dhruv3006 on Hacker News, Lobsters, GitHub, X, Mastodon, and Bluesky.
