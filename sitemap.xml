@@ -2,15 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>2026-04-04</lastmod>
   </url>
   <url>
-    <loc>https://example.com/posts/things-i-learned.html</loc>
-    <lastmod>2026-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://example.com/posts/hello-world.html</loc>
-    <lastmod>2026-03-15</lastmod>
+    <loc>https://example.com/posts/why-api-tooling-still-feels-10-years-behind.html</loc>
+    <lastmod>2026-04-04</lastmod>
   </url>
   <url>
     <loc>https://example.com/photos/</loc>
@@ -23,5 +19,9 @@
   <url>
     <loc>https://example.com/now.html</loc>
     <lastmod>2026-03-16</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/code.html</loc>
+    <lastmod>2026-03-15</lastmod>
   </url>
 </urlset>

@@ -9,11 +9,11 @@
     <atom:link href="https://example.com/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <title>Are AI Features Really Needed?</title>
-      <link>https://example.com/posts/are-ai-features-really-needed.html</link>
-      <guid>https://example.com/posts/are-ai-features-really-needed.html</guid>
-      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
-      <description>How Postman got enshittified and why AI products aren't making any value.</description>
+      <title>Why API Tooling Still Feels 10 Years Behind</title>
+      <link>https://example.com/posts/why-api-tooling-still-feels-10-years-behind.html</link>
+      <guid>https://example.com/posts/why-api-tooling-still-feels-10-years-behind.html</guid>
+      <pubDate>Fri, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <description>API tooling has seen surprisingly little real innovation in the last decade.</description>
     </item>
 
   </channel>
