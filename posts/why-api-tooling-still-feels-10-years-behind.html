@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <title>Why API Tooling Still Feels 10 Years Behind - Dhruv</title>
-  <meta name="description" content="API tooling has seen surprisingly little real innovation in the last decade.">
+  <meta name="description" content="API tooling has not really changed that much in the last ten years.">
   <link rel="canonical" href="https://example.com/posts/why-api-tooling-still-feels-10-years-behind.html">
   <link rel="alternate" type="application/rss+xml" title="Dhruv" href="https://example.com/feed.xml">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -13,7 +13,7 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="Why API Tooling Still Feels 10 Years Behind">
-  <meta property="og:description" content="API tooling has seen surprisingly little real innovation in the last decade.">
+  <meta property="og:description" content="API tooling has not really changed that much in the last ten years.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://example.com/posts/why-api-tooling-still-feels-10-years-behind.html">
   <meta property="og:site_name" content="Dhruv">
@@ -21,14 +21,14 @@
   <meta property="article:author" content="https://example.com/about.html">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Why API Tooling Still Feels 10 Years Behind">
-  <meta name="twitter:description" content="API tooling has seen surprisingly little real innovation in the last decade.">
+  <meta name="twitter:description" content="API tooling has not really changed that much in the last ten years.">
   <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "Why API Tooling Still Feels 10 Years Behind",
-    "description": "API tooling has seen surprisingly little real innovation in the last decade.",
+    "description": "API tooling has not really changed that much in the last ten years.",
     "url": "https://example.com/posts/why-api-tooling-still-feels-10-years-behind.html",
     "datePublished": "2026-04-04",
     "author": {
@@ -67,19 +67,17 @@
     </div>
 
     <h1>Why API Tooling Still Feels 10 Years Behind</h1>
-    <p class="subtitle">API tooling has seen surprisingly little real innovation in the last decade.</p>
+    <p class="subtitle">API tooling has not really changed that much in the last ten years.</p>
     <time datetime="2026-04-04">Friday, 4 April 2026</time>
 
     <div class="post-body">
-      <p>For all the noise around developer tools, API tooling has seen surprisingly little real innovation in the last decade. We went from curl and simple REST clients to bloated platforms that require logins, cloud sync, and team plans just to send a GET request. The core workflow — write a request, send it, inspect the response — hasn't meaningfully improved. What changed is everything around it got heavier.</p>
+      <p>For all the noise around developer tools, API tooling has not really changed that much in the last ten years. Most of it still follows the same basic pattern: a GUI to send requests, a place to save collections, and some collaboration features.</p>
 
-      <p>API clients also moved in the wrong direction. They made local API work depend on cloud accounts for things that should have stayed simple files on disk. Collections became proprietary formats locked inside apps instead of portable specs you could version control. Collaboration got bolted on through dashboards and permissions instead of through git and plain text. The result is tools that feel more like enterprise SaaS products than developer utilities.</p>
+      <p>In some ways, it actually got worse. A lot of modern API clients took something that should have stayed local and simple and turned it into a cloud product. Now even basic tasks like testing an internal API, saving requests, or keeping a history of what you ran can depend on accounts, sync layers, and vendor-controlled workspaces. Work that should live in files on your machine started getting pulled into hosted dashboards.</p>
 
-      <p>And the core interface is still usually a stack of forms: method, URL, headers, params, body, auth. That's the same paradigm from a decade ago, just wrapped in a shinier UI. It works for one-off requests, but it falls apart when you're working across dozens of endpoints with shared auth, environment-specific variables, chained requests, and test assertions. The tools don't scale with the complexity of real API work.</p>
+      <p>And the interface itself still usually comes down to the same form-driven model: method, URL, headers, params, body, auth. That is fine when you are making a quick request or trying something once. It looks clean, it is easy to demo, and it feels approachable in the beginning. But API work is usually much messier than that. Not just about sending one request, it is about reusing pieces, composing workflows, tracking changes, writing docs, running tests, and making the whole thing understandable months later. Forms are okay for input, but they are not a strong foundation for everything that comes after.</p>
 
-      <p>But real API work is rarely just filling out forms. It involves reuse, composition, iteration, diffs, documentation, testing — things that text-based workflows handle well and GUI-heavy tools handle poorly. A good API workflow should look more like writing code than clicking through tabs. It should be diffable, reviewable, and runnable from a terminal without needing a browser open.</p>
-
-      <p>That is the gap. API tooling still needs to move away from cloud-dependent dashboards and rigid request forms toward workflows that are local first, file based, composable, and easy to review.</p>
+      <p>That is the real gap. API tooling still needs to move beyond cloud-heavy dashboards and rigid request forms, and toward workflows that are local-first, file-based, composable, and easy to review in the same way developers already review the rest of their work.</p>
     </div>
   </main>
 
